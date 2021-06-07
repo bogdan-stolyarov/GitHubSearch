@@ -34,8 +34,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
     @Override
     public void onBindViewHolder(@NonNull ItemAdapter.ItemViewHolder holder, int position) {
         Item item = items.get(position);
-        if (item.getFull_name() != null && !TextUtils.isEmpty(item.getFull_name())) {
-            holder.name.setText(item.getFull_name());
+        if (item.getFullName() != null && !TextUtils.isEmpty(item.getFullName())) {
+            holder.name.setText(item.getFullName());
             holder.description.setText(item.getDescription());
             holder.watchers.setText(String.valueOf(item.getWatchersCount()));
             holder.stars.setText(String.valueOf(item.getStargazersCount()));

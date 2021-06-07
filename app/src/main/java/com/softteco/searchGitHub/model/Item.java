@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 public class Item {
 
     @SerializedName("full_name")
-    private String full_name;
+    private String fullName;
 
     @SerializedName("description")
     private String description;
@@ -23,8 +23,8 @@ public class Item {
     @SerializedName("stargazers_count")
     private  int stargazersCount;
 
-    public String getFull_name() {
-        return full_name;
+    public String getFullName() {
+        return fullName;
     }
 
     public String getDescription() {
