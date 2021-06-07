@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+    <dimen name="padding_50dp">50dp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Search Github</string>
+    <string name="search">search</string>
+    <string name="error">Something went wrong</string>
+    <string name="total_count">Results total count: %1$s</string>
+</resources>
